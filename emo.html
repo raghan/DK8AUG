@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bootstrap dropdown with navbar example</title>
+    \ <link href="lib/bootstrap-3.2.0-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<nav>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="http://www.w3resource.com">w3resource</a>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="active"><a href="http://www.w3resource.com" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Home</a></li>
+                        <li class="dropdown active">
+                            <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#">Frontend<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://www.w3resource.com/html/HTML-tutorials.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>HTML</a></li>
+                                <li><a href="http://www.w3resource.com/css/CSS-tutorials.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>CSS</a></li>
+                                <li><a href="http://www.w3resource.com/javascript/javascript.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>JavaScript</a></li>
+                                <li><a href="http://www.w3resource.com/html5/introduction.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>HTML5</a></li>
+                                <li><a href="http://www.w3resource.com/schema.org/introduction.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Schema.org</a></li>
+                                <li><a href="http://www.w3resource.com/phpjs/use-php-functions-in-javascript.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>php.js</a></li>
+                                <li><a href="http://www.w3resource.com/twitter-bootstrap/tutorial.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Twitter Bootstrap</a></li>
+                                <li><a href="http://www.w3resource.com/zurb-foundation3/introduction.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Zurb Foundation 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" id="dLabel1" role="button" data-toggle="dropdown" data-target="#" href="#">Backend<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://www.w3resource.com/java-tutorial/" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Java</a></li>
+                                <li><a href="http://www.w3resource.com/php/php-home.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>PHP</a></li>
+                                <li><a href="http://www.w3resource.com/python/python-tutorial.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Python</a></li>
+                                <li><a href="http://www.w3resource.com/node.js/node.js-tutorials.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Node.js</a></li>
+                                <li class="divider"></li>
+                                <li><a href="http://www.w3resource.com/c-programming/programming-in-c.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>C Programming</a></li>
+                            </ul>
+                        </li>
+
+
+                        </li>
+                        <li class="dropdown active">
+                            <a class="dropdown-toggle" id="dLabel4" role="button" data-toggle="dropdown" data-target="#" href="#">Data-interchange <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://www.w3resource.com/JSON/introduction.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>JSON</a></li>
+                                <li><a href="http://www.w3resource.com/xml/xml.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>XML</a></li>
+                            </ul>
+                        <li class="dropdown active">
+                            <a class="dropdown-toggle" id="dLabel5" role="button" data-toggle="dropdown" data-target="#" href="#">API & Tools<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://www.w3resource.com/API/google-plus/tutorial.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Google+ API</a></li>
+                                <li><a href="http://www.w3resource.com/API/youtube/tutorial.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Youtube API</a></li>
+                                <li class="divider"></li>
+                                <li><a href="http://www.w3resource.com/ajax/introduction.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Ajax</a></li>
+                                <li class="divider"></li>
+                                <li><a href="http://www.w3resource.com/web-development-tools/firebug-tutorials.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Firebug</a></li>
+                                <li><a href="http://www.w3resource.com/web-development-tools/webP.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>WebP</a></li>
+                                <li><a href="http://www.w3resource.com/web-development-tools/useful-web-development-tools.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Useful tools</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="active"><a href="http://www.w3resource.com/newsletter/" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Newsletter</a></li>
+                        <!--<li class="active"><a href="http://www.w3resource.com/advertise.php" itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Advertise</a></li>-->
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+</nav>
+<
+        <hr class="separator" />
+        <div class="row-fluid">
+            <div class="span2">
+                <div class="well sidebar-nav">
+                    <nav>
+                        <ul class='nav nav-list'><li><a href='/index.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Home</a></li><li class='nav-header'>&#9660;Twitter Bootstrap</li><li><a href='/twitter-bootstrap/tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Introduction</a></li><li><a href='/twitter-bootstrap/CSS-overview.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> CSS overview</a></li><li><a href='/twitter-bootstrap/grid-system-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Grid system tutorial</a></li><li><a href='/twitter-bootstrap/layout-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Layout tutorial</a></li><li><a href='/twitter-bootstrap/responsive-design.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Responsive Design</a></li><li><a href='/twitter-bootstrap/typography-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Typography tutorial</a></li><li><a href='/twitter-bootstrap/glyphicons.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Glyphicons tutorial</a></li><li><a href='/twitter-bootstrap/3/glyph-customization.html' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Customize Glyphicons</a></li><li><a href='/twitter-bootstrap/tables-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Tables tutorial</a></li><li><a href='/twitter-bootstrap/forms-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Forms tutorial</a></li><li><a href='/twitter-bootstrap/button-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Button tutorial</a></li><li><a href='/twitter-bootstrap/image-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Image tutorial</a></li><li><a href='/twitter-bootstrap/icons.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Icons Tutorial</a></li><li><a href='/twitter-bootstrap/nav-tabs-and-pills-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Tabs and pills based navigation tutorial</a></li><li><a href='/twitter-bootstrap/navbar-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Navbar Tutorial</a></li><li><a href='/twitter-bootstrap/inline-labels-and-badges.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Inline labels and badges</a></li><li><a href='/twitter-bootstrap/thumbnails-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Thumbnails Tutorial</a></li><li><a href='/twitter-bootstrap/progress-bars-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Progress bars</a></li><li><a href='/twitter-bootstrap/breadcrumbs-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Breadcrumbs Tutorial</a></li><li><a href='/twitter-bootstrap/pagination-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Pagination Tutorial</a></li><li><a href='/twitter-bootstrap/alerts-and-errors-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Alerts and Errors tutorial</a></li><li><a href='/twitter-bootstrap/list-group.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> List group/Pricing table tutorial</a></li><li><a href='/twitter-bootstrap/twitter-bootstrap-with-less.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Twitter Bootstrap with Less</a></li><li class='nav-header'>&#9660;JavaScript Plugins</li><li><a href='/twitter-bootstrap/modals-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Modals</a></li><li><a href='/twitter-bootstrap/popover-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Popover</a></li><li class='active'><a href='/twitter-bootstrap/dropdown.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'>Dropdown</a></li><li><a href='/twitter-bootstrap/scrollspy-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> scrollspy</a></li><li><a href='/twitter-bootstrap/carousel-tutorial.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Carousel</a></li><li><a href='/twitter-bootstrap/typehead.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Typehead</a></li><li><a href='/twitter-bootstrap/button.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Button</a></li><li><a href='/twitter-bootstrap/collapse.php' itemscope itemtype='http://schema.org/WebPageElement/SiteNavigationElement'> Collapse</a></li></ul>
+
+
+
+                    </nav>
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <ul class="nav">
+                <a class="brand" href="#">w3resource</a>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="dropdown" id="accountmenu">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tutorials<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">PHP</a></li>
+                        <li><a href="#">MySQL</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">HTML5</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <h1>Dropdown Example</h1>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
+- See more at: http://www.w3resource.com/twitter-bootstrap/dropdown.php#sthash.7AjYYcAl.dpuf

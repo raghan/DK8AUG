@@ -1,0 +1,120 @@
+{
+    "topic":
+    [
+
+        {
+            "topicName":"Core Java",
+            "questions": [
+                  {
+                    "id":1,
+                    "qtext":"qqqqqqqqqqqqq1",
+                    "options":
+                        [
+                            {
+                                "id":1,
+                                "option":"aaaaaaa"
+                            },
+                            {
+                                "id":2,
+                                "option":"baaaaaa"
+                            },
+                            {
+                                "id":3,
+                                "option":"caaaaaa"
+                            },
+                            {
+                                "id":4,
+                                "option":"daaaaaaa"
+                            }
+                        ],
+                    "answer":[1,3],
+                    "handOutLink":"Download/jar files/question1.zip"
+                },
+                {
+                    "id":2,
+                    "qtext":"qqqqqqqqqqqqq2",
+                    "options":[
+                        {
+                            "id":1,
+                            "option":"aaadfaaa"
+                        },
+                        {
+                            "id":2,
+                            "option":"baaafsdaaa"
+                        },
+                        {
+                            "id":3,
+                            "option":"caaasfdaaa"
+                        },
+                        {
+                            "id":4,
+                            "option":"daaafdsaaaa"
+                        }
+                    ],
+                    "answer":[2],
+                    "handOutLink":"Download/jar files/question2.zip"
+                },
+                {
+                    "id":3,
+                    "qtext":"qqqqqqqqqqqqq3",
+                    "options":[
+                        {
+                            "id":1,
+                            "option":"aaa"
+                        },
+                        {
+                            "id":2,
+                            "option":"bbbb"
+                        },
+                        {
+                            "id":3,
+                            "option":"c"
+                        },
+                        {
+                            "id":4,
+                            "option":"vvvvv"
+                        }
+                    ],
+                    "answer":[1,3],
+                    "handOutLink":"Download/jar files/question2.zip"
+                }
+
+
+            ]
+        },
+
+        {
+            "topicName":"Exception",
+            "questions": [
+
+                {
+                "id":1,
+                "qtext":"what is exception?",
+                "options":[
+                        {
+                        "id":1,
+                        "option":"try"
+                        },
+                        {
+                        "id":2,
+                        "option":"catch"
+                        },
+                        {
+                        "id":3,
+                        "option":"throw"
+                        },
+                        {
+                        "id":4,
+                        "option":"all d above"
+                        }
+                ],
+                "answer":[1],
+                "handOutLink":"Download/jar files/question3.zip"
+            }
+
+        ]
+    }
+
+
+    ]
+}

@@ -1,0 +1,15 @@
+
+    <div  ng-controller="exceptionController" class="col-lg-9">
+
+        <div>
+            <h3>{{question[inc].id}}.{{question[inc].qtext}}</h3>
+            <a href="{{question[inc].handOutLink}}">Download</a>
+
+            <div  ng-repeat="x in question[inc].options">
+                <input type="checkbox"  checkbox-group id="{{x.id}}" />{{x.option}}<br/>
+            </div>
+        </div>
+        <input type="button"  ng-show="inc" value="<<Prev" ng-click="prev(inc)" />
+        <input type="button" value="Next>>" ng-click="next(inc)" />
+
+    </div>

@@ -1,0 +1,43 @@
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #d6e9c6;
+
+    }
+.nav li {
+      padding-top: 5px;
+      }
+.leaderboard {
+      padding: 60px;
+      margin-bottom: 30px;
+
+      background-repeat:repeat;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      border-radius: 6px;
+      }
+.leaderboard h1 {
+      font-size: 40px;
+      margin-bottom: 5px;
+      line-height: 1;
+      letter-spacing: -1px;
+      color:#FF6600;
+      }
+.leaderboard p {
+      font-size: 18px;
+      font-weight: 200;
+      line-height: 27px;
+      }
+.navbar-brand {
+    max-width: 50%;
+}
+.col-lg-9 {
+    background-color: #b2dba1;
+    padding: 10px;
+    -moz-border-radius: 5px;
+
+
+}
+.col-lg-3 {
+
+}

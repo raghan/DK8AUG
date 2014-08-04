@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html ng-app="codeApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>\
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.js"></script>
+    <script src="app.js"></script>
+    <!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">-->
+    <script src="dataService.js"></script>
+    <script src="mainController.js"></script>
+    <link href="lib/bootstrap-3.2.0-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="lib/style.css" rel="stylesheet">
+</head>
+<body ng-controller="mainController">
+
+<div class="container-fluid">
+    <!--<div class="row">
+    <div class="col-lg-3">-->
+
+           <div class="navbar-inner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="container">
+
+                    <div class="col-md-3">
+                        <div class="well well-lg">
+                            <ul class="nav ">
+                                <li>
+                                    <label label-default="" class="tree-toggler nav-header"> Java</label>
+                                    <ul class="nav  tree active-trial">
+                                        <li><a href="#/corejava">{{topic[0].topicName}}</a>
+
+                                        </li>
+                                        <li><a href="#/exception">{{topic[1].topicName}}</a>
+
+                                        </li>
+                                        <li>
+                                            <label label-default="" class="tree-toggler nav-header ">Spring</label>
+                                            <ul class="nav  tree  active-trial">
+                                                <li><a href="#">Link</a>
+
+                                                </li>
+                                                <li><a href="#">Link</a>
+
+                                                </li>
+                                                <li>
+                                                    <label label-default="" class="tree-toggler nav-header">Hibernate</label>
+                                                    <ul class="nav  tree">
+                                                        <li><a href="#">Link</a>
+
+                                                        </li>
+                                                        <li><a href="#">Link</a>
+
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!--<li class="nav-divider"></li>
+                                <li>
+                                    <label label-default="" class="tree-toggler nav-header">Header 2</label>
+                                    <ul class="nav  tree">
+                                        <li><a href="#">Link</a>
+
+                                        </li>
+                                        <li><a href="#">Link</a>
+
+                                        </li>
+                                        <li>
+                                            <label label-default="" class="tree-toggler nav-header">Header 2.1</label>
+                                            <ul class="nav  tree">
+                                                <li><a href="#">Link</a>
+
+                                                </li>
+                                                <li><a href="#">Link</a>
+
+                                                </li>
+                                                <li>
+                                                    <label label-default="" class="tree-toggler nav-header">Header 2.1.1</label>
+                                                    <ul class="nav  tree">
+                                                        <li><a href="#">Link</a>
+
+                                                        </li>
+                                                        <li><a href="#">Link</a>
+
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <label label-default="" class="tree-toggler nav-header">Header 2.2</label>
+                                            <ul class="nav  tree">
+                                                <li><a href="#">Link</a>
+
+                                                </li>
+                                                <li><a href="#">Link</a>
+
+                                                </li>
+                                                <li>
+                                                    <label label-default="" class="tree-toggler nav-header">Header 2.2.1</label>
+                                                    <ul class="nav  tree">
+                                                        <li><a href="#">Link</a>
+
+                                                        </li>
+                                                        <li><a href="#">Link</a>
+
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    </div>&lt;!&ndash;/.nav-collapse &ndash;&gt;
+-->
+      </ul>
+</div>
+
+    </div>
+
+
+    <!-- Main hero unit for a primary marketing message or call to action -->
+
+    <!-- Example row of columns -->
+
+
+
+</div>
+
+</div>
+            <div class="col-lg-9" ng-view>
+            </div>
+            </div>
+        </div>
+
+
+               </div>
+    </div>
+
+<script>
+    $(function(){
+        $(".dropdown-toggle").dropdown('toggle');
+    });
+</script>
+
+
+</body>
+</html>
